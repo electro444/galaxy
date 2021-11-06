@@ -50,15 +50,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
+**🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *🆁🅴🅳 🅿🅸🅺🅰🅲🅷🆄*!\n 
 ᴘᴇᴏᴘʟᴇ's sᴏᴍᴇᴛɪᴍᴇ ғɪɴᴅ *ʜᴀʀᴅ* ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs, *sᴏ ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ*.\n
-[ᴍʏ Mⱥຮteℝ🔥](https://t.me/thanimaibots/17).
+[ᴍʏ Mⱥຮteℝ🔥](https://t.me/ELECTRO 444).
  
 ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
 """
 
 HELP_STRINGS = """
-ʜᴇʟʟᴏ! ᴍʏ ɴᴀᴍᴇ *{}*.
+ʜᴇʟʟᴏ! ᴍʏ ɴᴀᴍᴇ *🆁🅴🅳 🅿🅸🅺🅰🅲🅷🆄*.
 *ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ*:
  ➥ /start: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
  ➥ /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
@@ -78,7 +78,7 @@ USER_SETTINGS = {}
 
 
 SOURCE_STRING = """
-[here](hhttps://github.com/KdIfamily/galaxy)
+[here](hhttps://github.com)
 """
 
 
@@ -163,24 +163,24 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="ADD ME 🤖TO YOUR GROUP",url="t.me/{}?startgroup=true".format(bot.username))
+                            text="➕ ADD ME TO YOUR GROUP",url="t.me/{}?startgroup=true".format(bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👻 HELP 👻",
+                             text="🙋 HELP 🙋",
                             callback_data="help_back".format(bot.username)),
                          InlineKeyboardButton(
-                             text="UPDATES 🔀",
-                             url="https://t.me/thanimaibots")
+                             text="⏫ UPDATES ⏫ ",
+                             url="https://t.me/eofamilyff")
                      ],
                      [
                          InlineKeyboardButton(
                              text="💻 MY CREATOR 💻",
-                             url="https://t.me/thanimaibots/17")
+                             url="https://t.me/ELECTRO_444")
                      ]]))
 
     else:
-        update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 𝙂𝘼𝙇𝘼𝙓𝙔 𝘽𝙊𝙏 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
+        update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 🆁🅴🅳 🅿🅸🅺🅰🅲🅷🆄 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/Galaxysbot?start=help".format(bot.username))]]))
 
 
