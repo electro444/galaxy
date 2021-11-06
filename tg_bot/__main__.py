@@ -180,7 +180,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      ]]))
 
     else:
-        update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 🆁🅴🅳 🅿🅸🅺🅰🅲🅷🆄 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
+        update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 ᎧᎮ Ꭾɪᴋᴀᴄʜᴜ 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/OP_PIKACHU_BOT?start=help".format(bot.username))]]))
 
 
