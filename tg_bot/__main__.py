@@ -181,7 +181,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
     else:
         update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 🆁🅴🅳 🅿🅸🅺🅰🅲🅷🆄 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/Galaxysbot?start=help".format(bot.username))]]))
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/OP_PIKACHU_BOT?start=help".format(bot.username))]]))
 
 
 def send_start(bot, update):
