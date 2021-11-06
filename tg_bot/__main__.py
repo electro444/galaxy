@@ -64,7 +64,7 @@ HELP_STRINGS = """
  ➥ /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
-TECHNO_IMG = "https://telegra.ph/file/22c607a055b1f90153159.jpg"
+TECHNO_IMG = "https://telegra.ph/file/362fd5fa7c445f77627e1.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
